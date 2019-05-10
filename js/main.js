@@ -62,6 +62,7 @@ function doThis(){
     console.log("Objeto con lowerCamelCase")
     console.log(cliente) //Se muestra en consola el objeto con la conversión
     $("#text-camel").append(textConverseAll) 
+    $(".converse button").prop("disabled", true)
 }
 
 showFirstObject(cliente)
