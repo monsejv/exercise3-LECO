@@ -1,0 +1,49 @@
+body{
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	padding: 30px;
+	display: flex;
+	.original-object{
+		width: 40%;
+		margin-top: 40px;
+		display: inline-flex;
+		color: red;
+		font-family: sans-serif;
+	}
+	.lower-case-object{
+		width: 40%;
+		margin-top: 40px;
+		display: inline-flex;
+		color: pink;
+		font-family: cursive;
+	}
+	.converse{
+		width: 20%;
+		margin-top: 40px;
+		display: inline-block;
+		button{
+			color: #fff;
+			background-color: #5bc0de;
+			border-color: #46b8da;
+			display: block;
+			padding: 6px 12px;
+			cursor: pointer;
+			border: 1px solid transparent;
+			border-radius: 4px;
+			margin-top: 30px;
+			margin: auto;
+		}
+	}
+	#text-camel, #text-encode{
+		display: flow-root;
+    	width: 100%;
+    	height: 300px;
+    	text-align: left;
+	}
+}
+
